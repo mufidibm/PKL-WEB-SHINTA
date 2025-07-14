@@ -177,7 +177,7 @@ body {
 
 #profil {
   min-height: 100vh;
-  background-image: url("assets/image/kantor_awal.png");
+  background-image: url("../image/kantor_awal.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -230,7 +230,7 @@ body {
 #tentang-kami {
   display: flex;
   min-height: 100vh;
-  background-image: url("assets/image/kantor.png");
+  background-image: url("../assets/image/kantor.png");
   background-color: orange;
   background-position: center;
   background-repeat: no-repeat;
@@ -482,7 +482,7 @@ footer {
   padding: 20px;
   min-height: 90vh;
   box-sizing: border-box;
-  background-image: url(assets/image/background_2.png);
+  background-image: url(../image/background_2.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
