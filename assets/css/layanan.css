@@ -1,0 +1,182 @@
+#layanan {
+  min-height: 100vh;
+}
+
+.layanan-isi {
+  /* min-height: 100vh; */
+  background-image: url("/assets/image/background_2_kanan.png");
+  background-position: center;
+  background-size: cover;
+  background-color: whitesmoke;
+  padding: 0 50px;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid black; */
+}
+
+.layanan-foto {
+  height: 100vh;
+  /* border: 2px solid black; */
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  box-sizing: border-box;
+}
+
+.layanan-foto img {
+  width: 37%;
+  height: 80%;
+  object-fit: cover;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+}
+
+.layanan-foto img:nth-child(1) {
+  margin-top: 70px;
+}
+
+.layanan-teks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  top: -40px;
+  height: 100vh;
+  width: 50%;
+  /* border: 2px solid black; */
+  text-align: justify;
+}
+
+.layanan-teks h1 {
+  color: #123879;
+  font-size: 2.3rem;
+}
+
+.layanan-teks p {
+  max-width: 80%;
+}
+
+.software {
+  min-height: 100vh;
+  background-color: whitesmoke;
+}
+
+.software-isi-group {
+  /* border: 2px solid black; */
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-layanan {
+  background-color: rgb(214, 212, 212);
+  box-shadow: 6px 6px 7px rgba(59, 58, 58, 0.619),
+    -1px -1px 10px rgba(59, 58, 58, 0.413);
+  padding: 20px;
+  min-height: 40vh;
+  width: 25%;
+  border-radius: 15px;
+  margin: 15px;
+  transition: all 0.3s ease;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.card-layanan h1{
+  font-size: 1.2rem;
+}
+
+.card-layanan p, .card-layanan ol{
+  font-size: 0.8rem;
+}
+
+.card-layanan hr{
+  border: 0;
+  height: 2px;
+  background: #2980b9;
+  margin: 0.8rem 0;
+}
+
+.card-layanan div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  background-color: #2980b9;
+  padding: 20px;
+  border-radius: 50%;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.card-layanan div:hover{
+  cursor: pointer;
+  transform: translateY(-2px);
+  border: 2px solid white;
+}
+
+.card-layanan i{
+  scale: 1.5;
+  color: black;
+}
+
+.card-layanan:hover{
+  transform: scale(1.05);
+}
+
+.education {
+  min-height: 100vh;
+  background-color: whitesmoke;
+}
+
+.education-isi-group {
+  /* border: 2px solid black; */
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px){
+  .layanan-isi{
+    padding: 0;
+  }
+
+  .layanan-foto{
+    display: none;
+  }
+
+  .layanan-teks{
+    width: 100%;
+  }
+
+  .layanan-teks h1{
+    text-align: center;
+    font-size: 1.6rem;
+    margin-bottom: 50px;
+  }
+
+  .layanan-teks p{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .card-layanan{
+    width: 300px;
+  }
+}
