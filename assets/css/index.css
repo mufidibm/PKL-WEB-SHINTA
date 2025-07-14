@@ -230,7 +230,7 @@ body {
 #tentang-kami {
   display: flex;
   min-height: 100vh;
-  background-image: url("../assets/image/kantor.png");
+  background-image: url("../image/kantor.png");
   background-color: orange;
   background-position: center;
   background-repeat: no-repeat;
