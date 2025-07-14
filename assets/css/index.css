@@ -496,7 +496,7 @@ footer {
 
 .visi,
 .misi {
-  min-height: 65%;
+  height: 340px;
 }
 
 .visi {
@@ -712,6 +712,7 @@ footer {
   .visi,
   .misi {
     width: 90%;
+    height: auto;
   }
 
   .visi h1,
