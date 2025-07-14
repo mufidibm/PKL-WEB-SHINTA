@@ -177,7 +177,7 @@ body {
 
 #profil {
   min-height: 100vh;
-  background-image: url("/assets/image/kantor_awal.png");
+  background-image: url("assets/image/kantor_awal.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -230,7 +230,7 @@ body {
 #tentang-kami {
   display: flex;
   min-height: 100vh;
-  background-image: url("/assets/image/kantor.png");
+  background-image: url("assets/image/kantor.png");
   background-color: orange;
   background-position: center;
   background-repeat: no-repeat;
@@ -482,7 +482,7 @@ footer {
   padding: 20px;
   min-height: 90vh;
   box-sizing: border-box;
-  background-image: url(/assets/image/background_2.png);
+  background-image: url(assets/image/background_2.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -717,40 +717,39 @@ footer {
     font-size: 1.3rem;
   }
 
-  #latar-belakang{
+  #latar-belakang {
     flex-direction: column;
   }
 
-  .latar-foto{
+  .latar-foto {
     width: 100%;
     height: auto;
   }
 
-  .latar-foto img{
+  .latar-foto img {
     width: 30%;
     height: 40%;
   }
 
-  .latar-teks{
+  .latar-teks {
     width: 90%;
     height: auto;
     top: 0;
   }
 
-  .latar-teks h1{
+  .latar-teks h1 {
     font-size: 1.5rem;
   }
 
-  .latar-teks p{
+  .latar-teks p {
     max-width: 100%;
   }
 
-
-  .point{
+  .point {
     width: 90%;
   }
 
-  .point h1{
+  .point h1 {
     font-size: 1.2rem;
   }
 
@@ -763,27 +762,28 @@ footer {
     font-size: 0.8rem;
   }
 
-  .goals-isi{
+  .goals-isi {
     flex-direction: column;
     height: auto;
     margin: 20px 0;
   }
 
-  .strategic-card, .tactical-card{
+  .strategic-card,
+  .tactical-card {
     width: 95%;
     min-height: auto;
   }
 
   .footer-section h3 {
-  font-size: 1.3em;
-  margin-bottom: 10px;
-}
+    font-size: 1.3em;
+    margin-bottom: 10px;
+  }
 
-.footer-section p {
-  font-size: 0.75em;
-}
+  .footer-section p {
+    font-size: 0.75em;
+  }
 
-.footer-bottom {
-  font-size: 0.75em;
-}
+  .footer-bottom {
+    font-size: 0.75em;
+  }
 }

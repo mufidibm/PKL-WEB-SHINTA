@@ -4,7 +4,7 @@
 
 .layanan-isi {
   /* min-height: 100vh; */
-  background-image: url("/assets/image/background_2_kanan.png");
+  background-image: url("assets/image/background_2_kanan.png");
   background-position: center;
   background-size: cover;
   background-color: whitesmoke;
@@ -89,22 +89,23 @@
   margin-bottom: 20px;
 }
 
-.card-layanan h1{
+.card-layanan h1 {
   font-size: 1.2rem;
 }
 
-.card-layanan p, .card-layanan ol{
+.card-layanan p,
+.card-layanan ol {
   font-size: 0.8rem;
 }
 
-.card-layanan hr{
+.card-layanan hr {
   border: 0;
   height: 2px;
   background: #2980b9;
   margin: 0.8rem 0;
 }
 
-.card-layanan div{
+.card-layanan div {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -121,18 +122,18 @@
   border: 2px solid transparent;
 }
 
-.card-layanan div:hover{
+.card-layanan div:hover {
   cursor: pointer;
   transform: translateY(-2px);
   border: 2px solid white;
 }
 
-.card-layanan i{
+.card-layanan i {
   scale: 1.5;
   color: black;
 }
 
-.card-layanan:hover{
+.card-layanan:hover {
   transform: scale(1.05);
 }
 
@@ -152,31 +153,31 @@
   align-items: center;
 }
 
-@media (max-width: 768px){
-  .layanan-isi{
+@media (max-width: 768px) {
+  .layanan-isi {
     padding: 0;
   }
 
-  .layanan-foto{
+  .layanan-foto {
     display: none;
   }
 
-  .layanan-teks{
+  .layanan-teks {
     width: 100%;
   }
 
-  .layanan-teks h1{
+  .layanan-teks h1 {
     text-align: center;
     font-size: 1.6rem;
     margin-bottom: 50px;
   }
 
-  .layanan-teks p{
+  .layanan-teks p {
     width: 100%;
     margin: 0 auto;
   }
 
-  .card-layanan{
+  .card-layanan {
     width: 300px;
   }
 }
