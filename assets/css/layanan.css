@@ -4,7 +4,7 @@
 
 .layanan-isi {
   /* min-height: 100vh; */
-  background-image: url("assets/image/background_2_kanan.png");
+  background-image: url("../image/background_2_kanan.png");
   background-position: center;
   background-size: cover;
   background-color: whitesmoke;

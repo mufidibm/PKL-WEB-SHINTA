@@ -245,7 +245,7 @@ body {
   align-items: center;
   width: 40%;
   height: 100vh;
-  /* border: 3px solid orange; */
+  border: 3px solid orange;
   color: white;
   font-size: 2rem;
   text-shadow: 4px 4px 10px rgb(0, 0, 0);
@@ -567,7 +567,7 @@ footer {
 }
 
 .goals-isi {
-  border: 2px solid black;
+  /* border: 2px solid black; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -687,9 +687,11 @@ footer {
     height: 200px;
     width: 100%;
     margin-left: 0;
+    height: auto;
   }
 
   .tentang-kanan {
+    height: auto;
     width: 100%;
     font-size: 0.75rem;
   }
